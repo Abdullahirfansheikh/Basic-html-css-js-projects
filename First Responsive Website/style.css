@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: darkgray; */
+}
+#nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: lightseagreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    /* border-bottom: 2px solid pink; */
+
+}
+#nav h2{
+    font-size: 2vw;
+}
+#nav2{
+    /* background-color: red; */
+   height: 100px;
+   display: flex;
+   align-items: center;
+    
+}
+#nav2 a{
+    margin-right:5vw;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.8vw;
+}
+#nav2 button{
+    padding: 1vw 2.5vw;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 0.4vw;
+    font-size: 1.2vw;
+}
+i{
+    font-size: 2vw;
+    display: none;
+}
+#b{
+    height: calc(100% - 100px);
+    /* background-color: red; */
+    display: flex;
+}
+#left{
+    /* background-color: lightseagreen; */
+    height: 100%;
+    width: 60%;
+    padding: 4vw 3vw;
+}
+#left h1{
+    font-size: 4vw;
+    margin-bottom: 1vw;
+
+}
+#left span{
+    color: lightseagreen;
+}
+#left p{
+    font-size: 1.5vw;
+    font-weight: 100;
+    margin-bottom: 2vw;
+    
+}
+#left button{
+    padding: 1vw 2.5vw;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 0.4vw;
+    font-size: 1.2vw;
+}
+#right{
+    /* background-color: crimson; */
+    height: 100%;
+    width: 40%;
+}
+#right img{
+    padding: 0 3vw;
+    height: 39vw;
+    width: 39vw;
+    object-fit: cover;
+}
+@media (max-width:600px) {
+    #nav{
+       height: 10vw;
+    }
+    #nav h2{
+        font-size: 5vw;
+    }
+    #nav2 a,button{
+        display: none;
+    }
+    i{
+        display: block;
+        font-size: 5vw;
+    }
+    #b{
+        flex-direction: column;
+    }
+    #left h1{
+        width: 90vw;
+        /* background-color: red; */
+        font-size: 12vw;
+        text-align: center;
+    }
+    #left p{
+        font-size: 4vw;
+        /* background-color: blue; */
+        width: 95vw;
+        margin-top: 6vw;
+        margin-bottom: 6vw;
+        /* color: lightseagreen; */
+        font-weight: 800;
+    }
+    #left button{
+        display: block;
+        font-size: 4vw;
+        margin-bottom: 4vw;
+    }
+    #right img{
+        height: 70vw;
+        width: 100vw;
+
+    }
+}

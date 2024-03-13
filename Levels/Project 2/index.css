@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    letter-spacing: 10px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+.intro{
+    text-transform: uppercase;
+    /* background-color: olivedrab; */
+    font-size: 50px;
+    line-height: 120px;
+    padding: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* margin-top: 80px; */
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+}
+.bgi{
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp);
+    background-size: cover;
+    width: 100;
+    height: 100%;
+}
+.nav{
+    /* background-color: #000;
+    color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 50px 50px;
+    margin-top: -10px;
+    position: fixed;
+    width: 100%;
+}
+.nav h3{
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.about{
+    width: 90%;
+    font-size: 30px;
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+}
+.about2{
+    border-left: 1px solid #000;
+}
+.about2 h4{
+    margin-left: 50px;
+    width: 100%;
+   /* background-color: red; */
+   width: 300px;
+}
+.icons2{
+    /* background-color: red; */
+    margin-top: 345px;
+    margin-left: 50px;
+    width: fit-content;
+    border-radius: 50px;
+    margin-right: 15px;
+}

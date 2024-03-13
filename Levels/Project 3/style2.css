@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Helvetica;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+.img{
+   background-color: red;
+   height: 500px;
+   width: 500px;
+   background-image: url(charles-gaudreault-xXofYCc3hqc-unsplash.jpg);
+   background-size: cover;
+   object-fit: cover;
+   margin-left: 150px;
+   border-radius: 100px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22%;
+    margin-top: 580px;
+    margin-left: -1070px;
+}
+.main1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#ex{
+    margin-left: -1000px;
+}
+.sketch{
+    margin-left: -350px;
+}
+.btn{
+    margin-right: 141px;
+    font-size: 40px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+    
+}

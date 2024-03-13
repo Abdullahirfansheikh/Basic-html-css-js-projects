@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right,rgb(10, 12, 128),rgb(2, 2, 53),rgb(0, 0, 0)
+    )
+}
+#main{
+    height: 100%;
+    width: 100%;
+   /* display: flex; */
+   /* justify-content: space-around; */
+    
+}
+#nav{
+    height: 90px;
+    width: 100%;
+    background-color:rgb(255, 196, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+#logo{
+    font-size: 70px;
+}
+#heading{
+    font-size: 40px;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 45px;
+}
+.ff{
+    padding: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box{
+    height: 230px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+   border-radius: 13px;
+}
+#frow{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 200px;
+}
+#frow2{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 200px;
+}
+#frow3{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 200px;
+}
+button{
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    position: relative;
+    margin: 45px 210px;
+    height: 40px;
+    border-radius: 10px;
+    width: 120px;
+    margin-left: 245px;
+}
+.box{
+    padding: 15px 15px;
+}

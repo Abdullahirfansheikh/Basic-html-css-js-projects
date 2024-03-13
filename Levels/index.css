@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    /* background-color: red; */
+    height: 50px;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+i{
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 7px;
+}
+.menu{
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: orangered;
+    color: white;
+   
+}
+.nav1{
+    /* margin-top: 15px; */
+    margin-left: 10px;
+   
+}
+.nav2{
+    margin-top: 10px;
+    font-size: 45px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+.nav3{
+    /* margin-top: 15px; */
+    margin-right: 10px;
+}
+.nav3 a{
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+.nav3 button{
+    border-radius: 15px;
+    padding: 3px;
+    background-color: orangered;
+  
+}
+.mainh1{
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    /* background-color: red; */
+    width: 100%;
+    text-align: center;
+    
+}
+img{
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+.img1{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+.img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+.img3{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+h5{
+    position: absolute;
+    bottom: 1%;
+    left: 0.5%;
+    font-size: 20px;
+}
